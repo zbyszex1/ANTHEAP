@@ -1,0 +1,41 @@
+.entry {
+    background-color: teal;
+    color: white;
+    height: 100px;
+  }
+  
+  .input {
+    width: 95%;
+  }
+
+  .icon {
+    color: black;
+    margin: 5px;
+  }
+
+  .disabled {
+    color: silver;
+    margin: 5px;
+  }
+
+  .hidden {
+    display: none;
+  }
+    
+  .button {
+    background-color: lightcyan;
+    color: black;
+    width: 2.5em;
+    height: 2.5em;
+    font-size: 1.25em;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  @media only screen and (min-width: 500px) {
+    .setting {
+      height: 50px;
+    }
+    
+  }  

@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 2%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.gc {
+  width: 96%;
+  display: block;
+  padding: 10px;
+}
+
+.gc > div {
+  /* border: 1px dotted white; */
+  text-align: center;
+  display: block;
+  justify-content: center;
+}
+.gc > div.c3 {
+  text-align: left;
+  margin-left: 0;
+}
+.gc > div.c4 {
+  text-align: right;
+}
+
+@media only screen and (min-width: 500px) {
+  .gc {
+    width: 96%;
+    display: grid;
+    grid-template-columns: repeat( 4, 1fr);
+  }
+  
+  .gc > div {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+  .gc > div.c3 {
+      text-align: left;
+    }
+  
+  .c1 {
+    grid-column-start: 1;
+  }
+  
+  .c2 {
+    grid-column-start: 2;
+    grid-column-end: span 3;
+  }
+  
+  .c3 {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+  }
+  
+  .c4 {
+    grid-column-start: 4;
+  }
+  
+}
