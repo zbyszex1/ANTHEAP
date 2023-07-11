@@ -63,34 +63,6 @@ class Entry extends Component {
         },100);
     }
     
-    // printSpan(span) {
-    //     let result = "";
-    //     const second = 1000;
-    //     const minute = second * 60;
-    //     const hour = minute * 60;
-    //     const day = hour * 24;
-    //     const month = day * 31;
-    //     if (span > month) {
-    //         return '* ponad miesiąc!'
-    //     }
-    //     let days = Math.floor(span / day);
-    //     span -= days * day;
-    //     let hours = Math.floor(span / hour);
-    //     span -= hours * hour;
-    //     let minutes = Math.floor(span / minute);
-    //     span -= minutes * minute;
-    //     let seconds = Math.floor(span / second);
-    //     span -= seconds * second;
-    //     if (days > 0) {
-    //         result += days.toString().padStart(2, '0') + ' ';
-    //     }
-    //     result += hours.toString().padStart(2, '0') + ':';
-    //     result += minutes.toString().padStart(2, '0') + ':';
-    //     result += seconds.toString().padStart(2, '0') + ',';
-    //     result += span.toString().padStart(3, '0');
-    //     return result;
-    // }
-
     render() {
         const taskStarted = this.state.taskStarted;
         const taskPaused = this.state.taskPaused;

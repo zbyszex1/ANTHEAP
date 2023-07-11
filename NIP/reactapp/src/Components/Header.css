@@ -1,0 +1,22 @@
+.header {
+    height: 150px;
+    background-color: lightgoldenrodyellow;
+    color: black;
+  }
+
+.nip {
+  font-size: 4em;
+  font-weight: 800;
+}
+  
+  .header-text {
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  
+@media only screen and (min-width: 500px) {
+  .header {
+    height: 100px;
+  }
+      
+}

@@ -1,0 +1,63 @@
+.entry {
+  background-color: burlywood;
+  height: 50px;
+  width: 96%;
+  display: grid;
+  grid-template-columns: repeat( 4, 1fr);
+}
+
+.gc > .c3entry {
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  justify-content: center;
+  display: inline;
+}
+
+.c4entry {
+  grid-column-start: 4;
+}
+
+.input {
+  width: 60%;
+}
+
+.picker {
+  width: 50%;
+}
+
+.icon {
+  color: black;
+}
+
+.disabled {
+  width: 1rem;
+  height: 1rem;
+  opacity: 0.33;
+}
+
+.search {
+  width: 1.25rem;
+  height: 1.25rem;
+  opacity: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  background-color: lightgoldenrodyellow;
+  width: 2em;
+  height: 2em;
+  font-size: 1.25em;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+  
+@media only screen and (min-width: 500px) {
+  .setting {
+    height: 50px;
+  }
+
+}  
