@@ -1,1 +1,3 @@
-Projekt Srt jets tpu ConsoleApllication w .Net Core 6.0
+Projekt 'Srt' jest typu ConsoleApllication w .Net Core 6.0
+
+Projekt 'zadania' jest napisany w React.js
